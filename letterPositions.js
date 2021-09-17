@@ -27,7 +27,7 @@ const letterPositions = function(sentence) {
     } else {
         results[sentence[i]].push(i)
         }
-     }
+    }
     }
     return results;
 }
