@@ -8,7 +8,7 @@ function findKey(movieRatings, callback) {
     for(const movie in movieRatings) {
         // console.log(rating[stars])
         if(movieRatings[movie].stars === 2) {
-            return movieRatings[movie].stars
+            return movieRatings[movie].star
         }
     }
 }
